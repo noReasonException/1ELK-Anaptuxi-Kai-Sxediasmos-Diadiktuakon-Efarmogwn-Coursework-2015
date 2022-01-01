@@ -1,0 +1,62 @@
+/*body	{ background:url("Presentation/pres.png") top right no-repeat; background-attachment:fixed; }*/
+html { 
+  background: url(Presentation/pres.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@font-face {
+    font-family:MainTextFont;
+    src: url(hussarbdobl-web.ttf);
+}
+.MainTextFirst{
+	padding-top: 5%; /* Letters Dinstance from last object*/
+	margin-top:20%; /* Background Distance from last object */ 
+	background:url(MainText/MainTextFirst.png); /*MainTextBackground Path*/
+	background-repeat:no-repeat;/*Backrgound no repeat */
+
+}
+.MainTextMiddle{
+	background:url(MainText/MainTextMiddle.png); /*MainTextBackground Path*/
+	background-repeat:repeat-y;/*Backrgound no repeat */
+
+}
+.MainTextLast{
+	margin-bottom:20%; /* Background Distance from last object */ 
+	background:url(MainText/MainTextLast.png); /*MainTextBackground Path*/
+	background-repeat:no-repeat;/*Backrgound no repeat */
+
+}
+.Center{
+	
+	text-align:center;/*Text Align -> Center */
+	/*font-size:170%;/*Font Size */
+	font-family:MainTextFont;/*Font Family Custom(Define in line 9-12)*/
+	color: rgb(255,255,255);/*Color of Text (White)*/
+}
+
+.Left{
+	padding-left:10%;
+	text-align:left;/*Text Align -> Center */
+	/*font-size:170%;/*Font Size */
+	font-family:MainTextFont;/*Font Family Custom(Define in line 9-12)*/
+	color: rgb(255,255,255);/*Color of Text (White)*/
+}
+
+.Right{
+	padding-right:10%;
+	text-align:right;/*Text Align -> Center */
+	/*font-size:170%;/*Font Size */
+	font-family:MainTextFont;/*Font Family Custom(Define in line 9-12)*/
+	color: rgb(255,255,255);/*Color of Text (White)*/
+}
+.logo{
+	height:35%;
+	width:25%;
+	z-index:-100;
+
+}
+a{
+	color:rgb(255,255,255);
+}
